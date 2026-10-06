@@ -1,0 +1,32 @@
+{
+  "id": "community-search",
+  "name": "Community Search",
+  "version": "1.0.0",
+  "author": "futureUnd1ground",
+  "description": "Поиск плагинов Community Store через меню «Выполнить…»: карточки, версии, настройки и публикация ZIP.",
+  "icon": "search",
+  "enabledByDefault": true,
+  "realms": [
+    "heaven",
+    "hell"
+  ],
+  "settings": "Settings.qml",
+  "launcher": "Launcher.qml",
+  "category": "Launcher",
+  "tags": [
+    "launcher",
+    "search",
+    "plugins",
+    "market",
+    "community"
+  ],
+  "license": "MIT",
+  "dependencies": [
+    "Community Store 0.9.1 or newer",
+    "Python 3.10+",
+    "GitHub CLI and Git for ZIP publication"
+  ],
+  "permissions": [
+    "HTTPS access to the configured community registry"
+  ]
+}
